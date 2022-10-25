@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Nuventis/static/css/main.1d0abdbc.css",
+    "main.js": "/Nuventis/static/js/main.b23da537.js",
+    "index.html": "/Nuventis/index.html",
+    "main.1d0abdbc.css.map": "/Nuventis/static/css/main.1d0abdbc.css.map",
+    "main.b23da537.js.map": "/Nuventis/static/js/main.b23da537.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d0abdbc.css",
+    "static/js/main.b23da537.js"
+  ]
+}
