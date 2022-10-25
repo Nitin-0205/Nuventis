@@ -33,10 +33,10 @@ const Shows = () => {
                 <h3 className="title"><FontAwesomeIcon icon = {faCamera}/> Shows</h3>
                 <div className="showCont">
 
-                    {seasonName.map((data) => {
+                    {seasonName?.map((data) => {
                         return (
                             <div className="Shows" onClick={()=>{handleFunction(data.id)}}>
-                                <img src={data.image.medium} alt="Season" />
+                                <img src={data.image != null?data.image.medium:null} alt="Season" />
                                 <div className="ShowDetail">
                                     <h4 className="showName">{data.name} </h4>
                                     <h6 className="rating">rating <span>{data.rating.average}</span></h6>
