@@ -17,6 +17,12 @@
     width :35rem;
     background-color: rgb(15, 15, 15);
     border : 1px solid gray;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 2rem;
+}
+#Sea::-webkit-scrollbar{
+    display: none;
 }
 
 #Sea .title{
@@ -47,6 +53,12 @@
 }
 .Shows img{
     width:100%;
+    min-width: 10rem;
+    min-height: 10rem;
+    background-color: #222;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 2rem;
 }
 .ShowDetail{
     width: 100%;

@@ -29,7 +29,7 @@ const Episode = (prop) => {
                 {seasonName?.map((data) => {
                     return (
                         <div key={data.id} className="episodes" >
-                            <img src={data.image.medium} alt="episode" />
+                            <img src={data.image != null?data.image.medium:null} alt="episode" />
                             <div className="epDetail">
                                 <h4>{data.name}</h4>
                                 <h5 className="seaEp">S{data.season}/E{data.number}</h5>

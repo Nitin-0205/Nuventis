@@ -11,8 +11,8 @@ function App() {
       <BrowserRouter>
       <Header/>
         <Routes >
-          <Route path="/" element = {<Shows/>}></Route>
-          <Route path="/season/:id" element = {<Season/>}></Route>
+          <Route path="/Nuventis" element = {<Shows/>}></Route>
+          <Route path="/Nuventis/season/:id" element = {<Season/>}></Route>
         </Routes >
       </BrowserRouter>
     </div>

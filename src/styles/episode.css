@@ -10,7 +10,12 @@
     height:cover;
     background-color: rgb(15, 15, 15);
     overflow-y: scroll;
-    
+    height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 2rem;
+}
+#Sea::-webkit-scrollbar{
+    display: none;
 }
 #Eps::-webkit-scrollbar {
     display: none;

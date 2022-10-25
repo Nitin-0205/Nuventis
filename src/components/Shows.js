@@ -14,7 +14,7 @@ const Shows = () => {
         () => {
             getSeasonDetail();
         }
-        , []);
+        ,[]);
 
     const url = `https://api.tvmaze.com/shows`;
     function getSeasonDetail() {
@@ -25,7 +25,7 @@ const Shows = () => {
     };
 
     const handleFunction = (val)=>{
-        navigate(`/season/${val}`)
+        navigate(`/Nuventis/season/${val}`)
         
     }
     return (

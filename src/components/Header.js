@@ -10,7 +10,7 @@ const Header = () => {
             <h1><span className='logo'><FontAwesomeIcon icon={faBiohazard}></FontAwesomeIcon></span>Tvmaze shoWs</h1>
             <ul>
                 <li>
-                    <Link to ="/" className="home"><FontAwesomeIcon icon ={faCameraRetro}/> Shows </Link>
+                    <Link to ="/Nuventis" className="home"><FontAwesomeIcon icon ={faCameraRetro}/> Shows </Link>
                 </li>
             </ul>
         </div>

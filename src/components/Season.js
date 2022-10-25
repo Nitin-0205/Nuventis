@@ -33,7 +33,7 @@ const Season = () => {
                     {seasonName?.map((data) => {
                         return (
                             <div key = {data.id} className="Shows" onClick={()=>{setepisodeId(data.id);}}>
-                                <img src={data.image.medium} alt="Season" />
+                                <img src={data.image != null?data.image.medium:null} alt="Image Not Available !!!" />
                                 <div className="ShowDetail">
                                     <h4 className="showName">Season {data.number} </h4>
                                 </div>
