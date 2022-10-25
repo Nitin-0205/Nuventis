@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nuventis/static/css/main.1d0abdbc.css",
-    "main.js": "/Nuventis/static/js/main.b23da537.js",
+    "main.css": "/Nuventis/static/css/main.ebdae237.css",
+    "main.js": "/Nuventis/static/js/main.ebb1f615.js",
     "index.html": "/Nuventis/index.html",
-    "main.1d0abdbc.css.map": "/Nuventis/static/css/main.1d0abdbc.css.map",
-    "main.b23da537.js.map": "/Nuventis/static/js/main.b23da537.js.map"
+    "main.ebdae237.css.map": "/Nuventis/static/css/main.ebdae237.css.map",
+    "main.ebb1f615.js.map": "/Nuventis/static/js/main.ebb1f615.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d0abdbc.css",
-    "static/js/main.b23da537.js"
+    "static/css/main.ebdae237.css",
+    "static/js/main.ebb1f615.js"
   ]
 }
